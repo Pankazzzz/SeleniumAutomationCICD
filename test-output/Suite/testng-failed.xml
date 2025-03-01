@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="PankajShukla.TestComponents.Listerners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Order(failed)">
+    <classes>
+      <class name="PankajShukla.Tests.StandaloneApplication">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="order"/>
+          <include name="closeDriver"/>
+          <include name="loadApplication"/>
+        </methods>
+      </class> <!-- PankajShukla.Tests.StandaloneApplication -->
+    </classes>
+  </test> <!-- Order(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests"> ///methods, tests and classes
+
+
+<listeners>
+<listener class-name="PankajShukla.TestComponents.Listerners"> </listener>
+</listeners>
+
+  <test thread-count="5" name="Order" >
+    <classes>
+      <class name="PankajShukla.Tests.StandaloneApplication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="5" name="Error">
+    <classes>
+      <class name="PankajShukla.Tests.ErrorValidationsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
