@@ -9,3 +9,6 @@ public class TestngTestRunner extends AbstractTestNGCucumberTests{
 	
 
 }
+
+
+//monochrome=true // output will be in plain english language
